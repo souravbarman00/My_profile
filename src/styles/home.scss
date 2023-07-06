@@ -95,17 +95,19 @@
       overflow-x: hidden;
 
       &::after {
-        // content: "";
-        // width: 30vmax;
-        // height: 40vmax;
-        // background-color: $color4;
-        // position:inherit;
-        // z-index: -1;
-        // border-radius: 100%;
+        content: "";
+        width: 0vmax;
+        height: 0vmax;
+        background-color: $color4;
+        position:relative;
+        z-index: -1;
+        border-radius: 100%;
       }
 
       > img {
         width: 50vmax;
+        margin-left: auto;
+        position:-ms-page;
         object-fit:contain;
         // border-radius: 40px;
        
