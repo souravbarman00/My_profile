@@ -27,7 +27,6 @@ const TimelineItem = ({ heading, text, index,url }) => (
   >
     <div>
       <h2>{heading}</h2>
-      <p>{text}</p>
       <a href="https://sourav-mrou.onrender.com">Link</a>
     </div>
   </div>
