@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { AiFillIeCircle, AiFillAndroid, AiFillWindows } from "react-icons/ai";
+// import { BiLogoReact, MdOutlineFindInPage, BiLogoNodejs } from "react-icons/fa";
+import {SiAdobeillustrator,SiReact} from "react-icons/si"
+import {FaNodeJs} from "react-icons/fa6";
 
 const Services = () => {
   const animations = {
@@ -33,7 +35,7 @@ const Services = () => {
           whileInView={animations.whileInView}
           initial={animations.one}
         >
-          <h3>5+</h3>
+          <h3>2+</h3>
           <p>Years Experience</p>
         </motion.div>
         <motion.div
@@ -41,8 +43,8 @@ const Services = () => {
           whileInView={animations.whileInView}
           initial={animations.twoAndThree}
         >
-          <AiFillIeCircle />
-          <span>Web Development</span>
+          <SiReact />
+          <span>React Devloper</span>
         </motion.div>
         <motion.div
           className="serviceBox3"
@@ -52,16 +54,16 @@ const Services = () => {
             delay: 0.2,
           }}
         >
-          <AiFillAndroid />
-          <span>App Development</span>
+          <SiAdobeillustrator />
+          <span>Data Analyst</span>
         </motion.div>
         <motion.div
           className="serviceBox4"
           whileInView={animations.whileInView}
           initial={animations.four}
         >
-          <AiFillWindows />
-          <span>Desktop Development</span>
+          <FaNodeJs />
+          <span>Backend Developer</span>
         </motion.div>
       </section>
     </div>
