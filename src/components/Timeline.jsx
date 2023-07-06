@@ -11,6 +11,7 @@ const Timeline = () => {
             text={item.date}
             index={index}
             key={item.title}
+            url={item.url}
           />
         ))}
       </div>
@@ -18,7 +19,7 @@ const Timeline = () => {
   );
 };
 
-const TimelineItem = ({ heading, text, index }) => (
+const TimelineItem = ({ heading, text, index,url }) => (
   <div
     className={`timelineItem ${
       index % 2 === 0 ? "leftTimeline" : "rightTimeline"
@@ -27,6 +28,7 @@ const TimelineItem = ({ heading, text, index }) => (
     <div>
       <h2>{heading}</h2>
       <p>{text}</p>
+      <a href="https://sourav-mrou.onrender.com">Link</a>
     </div>
   </div>
 );

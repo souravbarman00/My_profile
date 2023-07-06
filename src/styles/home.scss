@@ -84,6 +84,7 @@
         }
       }
     }
+    
 
     &:last-of-type {
       border-top: 1px solid $color6_2;
@@ -111,14 +112,24 @@
       }
     }
   }
-
-  > svg {
+  >svg {
+    font-size: 5rem;
+    color: $color4;
     position: absolute;
-    font-size: 4rem;
-    color: $color3;
-    left: 50%;
-    bottom: 5%;
     transform: translateX(-50%);
     animation: animateSvg 0.7s infinite linear alternate;
-  }
+    &:hover {
+      color: $color3;
+    }
+
+  // > svg {
+  //   position: absolute;
+  //   font-size: 4rem;
+  //   color: $color3;
+  //   left: 50%;
+  //   bottom: 5%;
+  //   transform: translateX(-50%);
+  //   animation: animateSvg 0.7s infinite linear alternate;
+  // }
+}
 }

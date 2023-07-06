@@ -107,7 +107,7 @@ const Home = ({ ratio }) => {
       <section>
         <img src={me} alt="Sourav" />
       </section>
-      <BsChevronDown />
+       <BsChevronDown />
     </div>
   );
 };
