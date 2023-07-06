@@ -7,14 +7,14 @@ const Testimonial = () => {
 
       <section>
         <TestimonialCard
-          name={"Abhishek"}
+          name={"Gaurav"}
           feedback={"Your Teaching skills are so good."}
         />
 
         <TestimonialCard
-          name={"Ramzi"}
+          name={"Ram"}
           feedback={
-            "Wow what a portfolio, doesn't expected this to be on youtube!"
+            "Wow what a portfolio!"
           }
         />
 
